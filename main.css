@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.titleFont{
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 200%;
+    color: dimgray;
+}
+.titleFont:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.menuItems
+{
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: dimgray;
+     
+    
+}
+.listItem
+{
+    border-bottom:2px solid lightslategray;
+    padding: 5px;
+    margin-top: 10px;
+    left: 0px;
+}
+.menuItems:hover,.sectionHeader:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.sectionHeader{
+    display: inline-block;
+    margin-bottom: 40px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: dimgray;
+}
+
+.sectionContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.menuStyle{
+    list-style-type: none;
+    list-style-position: inside;
+    margin-top:20px; 
+}
+
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 2px solid lightgray;
+}
+
+.main {
+    margin-left: 220px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    margin-top: 10px; 
+    padding: 10px;
+}
+
+.productView { 
+   border: 2px solid dimgray;
+   padding: 0%;
+   margin: 20px;
+   width:154px;
+   order:1;
+  
+}
+
+.productView p , .productView a{
+    font-size:16px;
+    color: white;
+    background-color: darkgray;
+    padding: 5px;
+    margin-bottom: 0%;
+}
+.w-65{
+    width: 65%;
+}
+
+.background-none{
+    background-color: none;
+    border: none;
+}
